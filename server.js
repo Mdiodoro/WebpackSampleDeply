@@ -16,6 +16,6 @@ if (process.env.NODE_ENV !== 'prodcution') {
 		res.sendFile(path.join(__dirname, 'dist/index.html'));
 	})
 }
+console.log('HORSESHIT')
 
-
-app.listen(process.env.PORT || 3050, () => console.log('Listening'));
+app.listen(process.env.PORT || 3050, () => console.log('Listening on THE PORT YOU TOLD ME TO LISTEN TO!!!! MUAHAHHAHAH'));
