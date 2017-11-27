@@ -13,8 +13,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.2",
     "faker": "^3.1.0",
+    "install": "^0.10.2",
     "lodash": "^4.17.2",
+    "npm": "^5.5.1",
     "react": "15.4.1",
     "react-dom": "15.4.1",
     "react-input-range": "^0.9.2",
