@@ -5,7 +5,7 @@ const app = express();
 
 app.get('/hello', (req, res) => res.send({ hi: 'there' }));
 
-if (process.env.NODE_ENV !== 'prodcution') {
+if (process.env.NODE_ENV !== 'production') {
 	const webpackMiddleware = require('webpack-dev-middleware');
 	const webpack = require('webpack');
 	const webpackConfig = require('./webpack.config.js');
